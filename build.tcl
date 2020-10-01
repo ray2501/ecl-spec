@@ -18,5 +18,5 @@ set buildit [list rpmbuild --target $arch --define "_topdir [pwd]/build" -bb ecl
 exec >@stdout 2>@stderr {*}$buildit
 
 # Remove our source code
-#file delete -force $base.tgz
+file delete -force $base.tgz
 

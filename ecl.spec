@@ -52,6 +52,7 @@ This package contains the ECL shared library.
 Group:			Development/Libraries/C and C++
 Summary:		Embeddable Common-Lisp -- development files
 Requires:		lib%{name}%{major}_%{minor} == %{version}
+Requires:		gmp-devel
 
 %description devel
 ECL (Embeddable Common-Lisp) is an interpreter of the Common-Lisp language as
