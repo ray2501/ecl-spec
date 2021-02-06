@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "ecl-20.4.24"
-set fileurl "https://common-lisp.net/project/ecl/static/files/release/ecl-20.4.24.tgz"
+set base "ecl-21.2.1"
+set fileurl "https://common-lisp.net/project/ecl/static/files/release/ecl-21.2.1.tgz"
 
 set var [list wget $fileurl -O $base.tgz]
 exec >@stdout 2>@stderr {*}$var

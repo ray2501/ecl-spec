@@ -15,9 +15,9 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
-%global major 20
-%global minor 4
-%global revision 24
+%global major 21
+%global minor 2
+%global revision 1
 
 Name:           ecl
 Version:        %{major}.%{minor}.%{revision}
@@ -86,6 +86,7 @@ make %{?_smp_mflags}
 %{_bindir}/%{name}
 %{_libdir}/%{name}-%{version}/
 %{_mandir}/man1/*
+%{_infodir}/ecl.info.gz
 %doc README.md CHANGELOG
 %license COPYING
 
